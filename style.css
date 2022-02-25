@@ -24,6 +24,7 @@
 .main_body div {
   width: 33%;
   align-items: center;
+  border: 1px black solid;
 }
 .main_body img {
   max-width: 100%;
