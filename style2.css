@@ -2,10 +2,20 @@
   padding: 0px;
   margin: 0px;
 }
-.col-sm-12 {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+@media (min-width: 577px) {
+  .xs_image_size {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .col-xs-12 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .sm_md_image_size {
+    display: none;
+  }
 }
 
 .header {
