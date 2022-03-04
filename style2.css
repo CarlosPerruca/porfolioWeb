@@ -29,6 +29,11 @@
   max-height: 100%;
   width: 100%;
 }
+
+.in_link {
+  border: 2px solid blue;
+  background-color: cyan;
+}
 .main_body {
   display: flex;
   flex-direction: row;
