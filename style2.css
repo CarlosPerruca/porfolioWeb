@@ -23,20 +23,25 @@
   color: #fff;
   border-width: 1px;
   border-style: solid;
-  border-color: #5e5e5e;
+  border-color: #000000;
 }
-.btn-linkedin:active,
-.btn-linkedin:hover {
+.btn-github:link,
+.btn-github:visited {
+  color: #fff;
+}
+.btn-github:active,
+.btn-github:hover {
   background: #5e5e5e;
   color: #fff;
 }
+
 .btn-linkedin {
   background: #0e76a8;
   border-radius: 0;
   color: #fff;
   border-width: 1px;
   border-style: solid;
-  border-color: #084461;
+  border-color: #0e76a8;
 }
 .btn-linkedin:link,
 .btn-linkedin:visited {
@@ -47,6 +52,25 @@
   background: #084461;
   color: #fff;
 }
+
+.btn-mailMe {
+  background: #9cc4ff;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9cc4ff;
+}
+.btn-mailMe:link,
+.btn-mailMe:visited {
+  color: #fff;
+}
+.btn-mailMe:active,
+.btn-mailMe:hover {
+  background: #2a7fff;
+  color: #fff;
+}
+
 .game_cell a {
   display: flex;
   align-items: center;
