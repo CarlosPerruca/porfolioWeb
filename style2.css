@@ -23,6 +23,11 @@ div {
     justify-content: space-around;
     align-items: baseline;
   }
+
+  body {
+    background-size: cover;
+    background-position-x: right;
+  }
   .main_footer a,
   .main_body div {
     width: 100%;
