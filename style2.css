@@ -17,7 +17,19 @@
     display: none;
   }
 }
-
+.btn-github {
+  background: #000000;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5e5e5e;
+}
+.btn-linkedin:active,
+.btn-linkedin:hover {
+  background: #5e5e5e;
+  color: #fff;
+}
 .btn-linkedin {
   background: #0e76a8;
   border-radius: 0;
