@@ -52,17 +52,13 @@ div {
 }
 
 .btn_effects:hover a {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  transition: all, 0.5s ease-in-out;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 .btn_effects {
   overflow: hidden;
 }
-/* .btn-github:active,
-.btn-github:hover {
-  background: #5e5e5e;
-  color: #fff;
-} */
 
 .btn-linkedin {
   background: #0e76a8;
