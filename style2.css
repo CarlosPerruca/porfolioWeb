@@ -101,7 +101,25 @@ div {
   background: #2a7fff;
   color: #fff;
 }
-
+.btn_resume:active,
+.btn_resume:hover {
+  background: #da2121;
+  color: #fff;
+}
+.btn_resume {
+  background: #b81818;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b81818;
+  width: 85%;
+  max-width: 85%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px 0px;
+}
 .container {
   display: flex;
   flex-direction: row;
